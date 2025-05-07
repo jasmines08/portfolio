@@ -17,8 +17,8 @@ export default function NavBar() {
   };
 
   return (
-    <>
-      <nav className="flex items-center justify-between px-6 py-3 ">
+    <div className="fixed top-0 left-0 w-full z-50">
+      <nav className="flex items-center justify-between px-6 py-3 z-10">
         {/* Left-Icons */}
         <div className="flex items-center gap-3">
           <a
@@ -75,6 +75,6 @@ export default function NavBar() {
         </div>
       </nav>
       <Line />
-    </>
+    </div>
   );
 }
