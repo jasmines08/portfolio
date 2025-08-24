@@ -1,10 +1,19 @@
+import Line from "../components/line";
+import TrainingGrounds from "./training-grounds";
+
 export default function LeftBrain() {
   return (
-    <div className="flex flex-col items-center justify-center h-screen">
-      <h1 className="text-4xl font-bold">Left Brain</h1>
-      <p className="mt-4 text-lg text-gray-600">
-        This is the left brain section of the portfolio.
-      </p>
+    <div className="flex flex-col pt-14 px-6 gap-y-6">
+      <div>
+        <h1 className="mt-8 md:mt-4 md:text-[6vw] text-[9vw] font-rubik font-extrabold text-nblue leading-tight">
+          Training Grounds
+        </h1>
+        <p className="text-[4vw] md:-mt-4 md:text-[1.5vw] italic font-sans font-thin leading-tight">
+          Roots of Logic and Learning
+        </p>
+      </div>
+      <TrainingGrounds />
+      <Line />
     </div>
   );
 }

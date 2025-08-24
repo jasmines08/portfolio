@@ -74,7 +74,9 @@ export default function NavBar() {
           </a>
         </div>
       </nav>
-      <Line />
+      <div className="px-6">
+        <Line />
+      </div>
     </div>
   );
 }
