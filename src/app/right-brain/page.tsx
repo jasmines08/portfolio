@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Line from "../components/line";
+import Footer from "../components/footer";
 export default function RightBrain() {
   return (
     <div className="flex flex-col pt-14 gap-y-8 px-6">
@@ -100,6 +101,7 @@ export default function RightBrain() {
         </div>
       </div>
       <Line />
+      <Footer />
     </div>
   );
 }

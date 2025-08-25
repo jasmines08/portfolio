@@ -1,3 +1,4 @@
+import Footer from "../components/footer";
 import Line from "../components/line";
 import Admass from "./admass";
 import ElectricMind from "./electric-mind";
@@ -31,6 +32,7 @@ export default function LeftBrain() {
       <Line />
       <Admass />
       <Line />
+      <Footer />
     </div>
   );
 }

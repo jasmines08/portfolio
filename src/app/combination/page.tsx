@@ -1,3 +1,4 @@
+import Footer from "../components/footer";
 import Line from "../components/line";
 import Clubs from "./clubs";
 import Coding from "./coding";
@@ -16,6 +17,7 @@ export default function Combination() {
       <Line />
       <Coding />
       <Clubs />
+      <Footer />
     </div>
   );
 }

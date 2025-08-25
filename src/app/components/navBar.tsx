@@ -17,7 +17,11 @@ export default function NavBar() {
   };
 
   return (
-    <div className="fixed top-0 left-0 w-full z-50">
+    <div
+      className={`fixed top-0 left-0 w-full z-50 ${
+        !isHomePage ? "bg-[#191919]" : ""
+      }`}
+    >
       <nav className="flex items-center justify-between px-6 py-3 z-10">
         {/* Left-Icons */}
         <div className="flex items-center gap-3">
