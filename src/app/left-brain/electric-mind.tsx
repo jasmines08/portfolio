@@ -64,7 +64,7 @@ export default function ElectricMind() {
                     Chapter 1: Web App
                   </p>
                   <p className="font-sans font-thin">
-                    • Integrated real-time sports commentary into Prowire’s Web
+                    • Integrated real-time sports commentary into Prowire's Web
                     App using React Native.
                   </p>
                   <p>
