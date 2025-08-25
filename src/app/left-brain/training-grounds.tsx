@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 export default function TrainingGrounds() {
   return (
     <div className="grid grid-cols-1 md:grid-cols-5 gap-4 w-full items-stretch">
@@ -35,7 +37,7 @@ export default function TrainingGrounds() {
                 Requirements & Testing, Algorithms and Complexity
               </p>
             </div>
-            <img src="/Student.png" alt="Email" className="w-12 h-12" />
+            <Image src="/Student.png" alt="Student" width={120} height={120} />
           </div>
         </div>
       </div>
@@ -65,7 +67,7 @@ export default function TrainingGrounds() {
                 Computer Science Topper
               </p>
             </div>
-            <img src="/Bagpack.png" alt="Email" className="w-12 h-12" />
+            <Image src="/Bagpack.png" alt="Student" width={60} height={60} />
           </div>
         </div>
       </div>

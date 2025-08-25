@@ -13,29 +13,23 @@ export default function ElectricMind() {
               </h1>
             </div>
             <div>
-              <p className="font-sans font-extralight italic text-xl">Role:</p>
+              <p className="font-sans font-thin italic text-xl">Role:</p>
               <p className="font-sans font-bold italic text-xl">
                 Software Developer Intern
               </p>
             </div>
             <div>
-              <p className="font-sans font-extralight italic text-xl">
-                Levels:
-              </p>
+              <p className="font-sans font-thin italic text-xl">Levels:</p>
               <p className="font-sans font-bold italic text-xl">
                 16 (May 2023 - Aug 2024)
               </p>
             </div>
             <div className="flex">
-              <p className="font-sans font-extralight italic text-xl">
-                Missions:
-              </p>
+              <p className="font-sans font-thin italic text-xl">Missions:</p>
               <p className="font-sans font-bold italic text-xl ml-2">2</p>
             </div>
             <div className="flex">
-              <p className="font-sans font-extralight italic text-xl">
-                Locations:
-              </p>
+              <p className="font-sans font-thin italic text-xl">Locations:</p>
               <p className="font-sans font-bold italic text-xl ml-2">
                 Toronto, ON
               </p>

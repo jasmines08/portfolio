@@ -1,5 +1,6 @@
 import Line from "../components/line";
 import ElectricMind from "./electric-mind";
+import McMasterUni from "./mcmaster-uni";
 import TrainingGrounds from "./training-grounds";
 
 export default function LeftBrain() {
@@ -24,6 +25,8 @@ export default function LeftBrain() {
         </p>
       </div>
       <ElectricMind />
+      <Line />
+      <McMasterUni />
       <Line />
     </div>
   );
