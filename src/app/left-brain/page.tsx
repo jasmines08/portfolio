@@ -1,4 +1,5 @@
 import Line from "../components/line";
+import ElectricMind from "./electric-mind";
 import TrainingGrounds from "./training-grounds";
 
 export default function LeftBrain() {
@@ -13,6 +14,16 @@ export default function LeftBrain() {
         </p>
       </div>
       <TrainingGrounds />
+      <Line />
+      <div>
+        <h1 className="md:-mt-4 md:text-[6vw] text-[9vw] font-rubik font-extrabold text-nyellow leading-tight">
+          Developer's Quest Log{" "}
+        </h1>
+        <p className="text-[4vw] md:-mt-2 md:text-[1.5vw] italic font-sans font-thin leading-tight">
+          Applications of the Logic and Learning
+        </p>
+      </div>
+      <ElectricMind />
       <Line />
     </div>
   );
