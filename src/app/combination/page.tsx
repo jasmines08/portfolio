@@ -1,4 +1,5 @@
 import Line from "../components/line";
+import Clubs from "./clubs";
 import Coding from "./coding";
 
 export default function Combination() {
@@ -14,6 +15,7 @@ export default function Combination() {
       </div>
       <Line />
       <Coding />
+      <Clubs />
     </div>
   );
 }
