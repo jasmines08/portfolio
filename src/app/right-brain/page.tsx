@@ -72,7 +72,7 @@ export default function RightBrain() {
               src="/as_it_was.mp4"
               controls
               className="w-full rounded-lg my-4"
-              poster="/as_it_was_thumbnail.jpg"
+              poster="/as_it_was_thumbnail.JPG"
             >
               Your browser does not support the video tag.
             </video>
