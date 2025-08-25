@@ -64,7 +64,7 @@ export default function ElectricMind() {
                     Chapter 1: Web App
                   </p>
                   <p className="font-sans font-thin">
-                    • Integrated real-time sports commentary into Prowire's Web
+                    • Integrated real-time sports commentary into Prowire’s Web
                     App using React Native.
                   </p>
                   <p>
@@ -133,7 +133,7 @@ export default function ElectricMind() {
               <p className="font-sans font-thin">
                 • Implemented secure CIAM and authentication systems by
                 integrating Auth0, deploying adaptive MFA, and improving login
-                security through Auth0's Management API.
+                security through Auth0’s Management API.
               </p>
               <p className="font-sans font-thin">
                 • Streamlined development workflows by using Git, Jira,
