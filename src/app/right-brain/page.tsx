@@ -60,7 +60,7 @@ export default function RightBrain() {
         <div className="flex gap-x-6">
           <h1 className="basis-1/4">
             <video
-              src="/getting_older.mp4"
+              src="/getting_older.MP4"
               controls
               className="w-full rounded-lg my-4"
               poster="/getting_older_thumbnail.png"
@@ -70,7 +70,7 @@ export default function RightBrain() {
           </h1>
           <h1 className="basis-1/4">
             <video
-              src="/as_it_was.mp4"
+              src="/as_it_was.MP4"
               controls
               className="w-full rounded-lg my-4"
               poster="/as_it_was_thumbnail.JPG"
@@ -80,7 +80,7 @@ export default function RightBrain() {
           </h1>
           <h1 className="basis-1/4">
             <video
-              src="/youngblood.mp4"
+              src="/youngblood.MP4"
               controls
               className="w-full rounded-lg my-4"
               poster="/IMG_0437.jpg"
@@ -90,7 +90,7 @@ export default function RightBrain() {
           </h1>
           <h1 className="basis-1/4">
             <video
-              src="/call_me_maybe.mp4"
+              src="/call_me_maybe.MP4"
               controls
               className="w-full rounded-lg my-4"
               poster="/IMG_0439.jpg"
