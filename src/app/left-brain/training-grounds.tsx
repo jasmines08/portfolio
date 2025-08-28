@@ -7,8 +7,8 @@ export default function TrainingGrounds() {
         <p className="text-center text-nred font-rubik font-extrabold mb-1 text-2xl">
           Advanced Training
         </p>
-        <div className="border border-gray-400 rounded-2xl p-3 flex flex-col h-56 2xl:h-48 justify-between">
-          <div className="flex flex-row flex-wrap justify-between mb-3">
+        <div className="border border-gray-400 rounded-2xl p-3 flex flex-col sm:h-56 2xl:h-48 justify-between">
+          <div className="flex flex-row  justify-between mb-3">
             <div>
               <h1 className="text-3xl font-rubik font-extrabold text-npurple">
                 McMaster University
@@ -16,12 +16,14 @@ export default function TrainingGrounds() {
               <p className="font-sans italic font-light">
                 Bachelor of Applied Science
               </p>
-              <p className="font-sans italic font-light ml-4">
+              <p className="font-sans italic font-light sm:ml-4">
                 (Honours Co-op) Computer Science
               </p>
             </div>
-            <div className="flex flex-col items-end">
-              <p className="font-sans font-bold">Sept 2020 - April 2025</p>
+            <div className="flex flex-col items-end ">
+              <p className="font-sans font-bold text-right">
+                Sept 2020 - April 2025
+              </p>
               <p className="font-sans font-light italic">GPA 3.7</p>
             </div>
           </div>
@@ -45,7 +47,7 @@ export default function TrainingGrounds() {
         <p className="text-center text-nred font-rubik font-extrabold mb-1 text-2xl">
           Basic Training
         </p>
-        <div className="border border-gray-400 rounded-2xl p-3 h-56 2xl:h-48 flex flex-col justify-between">
+        <div className="border border-gray-400 rounded-2xl p-3 sm:h-56 2xl:h-48 flex flex-col justify-between">
           <div>
             <h1 className="text-3xl font-rubik font-extrabold text-npurple">
               Indian School Muscat

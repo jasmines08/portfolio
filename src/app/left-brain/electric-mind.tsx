@@ -1,8 +1,8 @@
 export default function ElectricMind() {
   return (
-    <div className="flex flex-row">
+    <div className="flex sm:flex-row flex-col">
       <div className="basis-2/3">
-        <div className="flex">
+        <div className="flex sm:flex-row flex-col">
           <div className="basis-1/2 flex flex-col gap-y-8 mt-6 2xl:gap-y-4">
             <div>
               <h2 className="font-rubik text-2xl font-extrabold">
@@ -42,9 +42,14 @@ export default function ElectricMind() {
                 React Native, Accessibility, Java Spring Boot, SQL, RESTful
                 APIs, JHipster
               </p>
+              <p className="font-sans font-bold italic text-xl mb-6 sm:mt-6 sm:hidden">
+                HTML, CSS, TypeScript, Material-UI, React.js, Next.js, Spring
+                Boot (Java), Jest, CIAM, Auth0, Git, Jira, Confluence, Docker,
+                and OpenShift.
+              </p>
             </div>
           </div>
-          <div className="basis-1/2 px-6">
+          <div className="basis-1/2 sm:px-6">
             <p className="text-center text-nred font-rubik font-extrabold mb-1 text-2xl">
               MISSION #1
             </p>
@@ -85,14 +90,14 @@ export default function ElectricMind() {
             </div>
           </div>
         </div>
-        <p className="font-sans font-bold italic text-xl mt-6">
+        <p className="font-sans font-bold italic text-xl mt-6 hidden sm:block">
           HTML, CSS, TypeScript, Material-UI, React.js, Next.js, Spring Boot
           (Java), Jest, CIAM, Auth0, Git, Jira, Confluence, Docker, and
           OpenShift.
         </p>
       </div>
       <div className="basis-1/3">
-        <p className="text-center text-nred font-rubik font-extrabold mb-1 text-2xl">
+        <p className="text-center text-nred font-rubik font-extrabold mb-1 text-2xl mt-4 sm:mt-0">
           MISSION #2
         </p>
         <div className="border border-gray-400 rounded-2xl p-3">

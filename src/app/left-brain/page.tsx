@@ -7,7 +7,7 @@ import TrainingGrounds from "./training-grounds";
 
 export default function LeftBrain() {
   return (
-    <div className="flex flex-col pt-14 px-6 gap-y-8">
+    <div className="flex flex-col pt-9 sm:pt-14 px-3 sm:px-6 gap-y-8">
       <div>
         <h1 className="mt-8 md:mt-4 md:text-[6vw] text-[9vw] font-rubik font-extrabold text-nblue leading-tight">
           Training Grounds

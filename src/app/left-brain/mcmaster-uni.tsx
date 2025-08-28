@@ -1,6 +1,6 @@
 export default function McMasterUni() {
   return (
-    <div className="flex gap-x-6">
+    <div className="flex sm:flex-row flex-col-reverse gap-x-6">
       <div className="basis-3/5 flex flex-col gap-y-4">
         <div>
           <p className="text-nred font-rubik font-extrabold mb-1 text-2xl">
@@ -49,12 +49,12 @@ export default function McMasterUni() {
           </div>
         </div>
       </div>
-      <div className="basis-2/5 flex flex-col gap-y-6 items-end mt-12">
+      <div className="basis-2/5 flex flex-col gap-y-6 items-end sm:mt-12">
         <div>
           <h2 className="font-rubik text-2xl font-extrabold text-right">
             Main Quest #2
           </h2>
-          <h1 className="font-rubik text-4xl font-extrabold text-ngreen">
+          <h1 className="font-rubik text-3xl sm:text-4xl font-extrabold text-ngreen">
             McMaster University
           </h1>
         </div>

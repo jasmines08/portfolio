@@ -1,6 +1,6 @@
 export default function Admass() {
   return (
-    <div className="flex  flex-row-reverse gap-x-6">
+    <div className="flex flex-col-reverse sm:flex-row-reverse gap-x-6">
       <div className="basis-3/5 flex flex-col gap-y-4">
         <div>
           <p className="text-nred font-rubik font-extrabold mb-1 text-2xl">
@@ -40,7 +40,7 @@ export default function Admass() {
       <div className="basis-2/5 flex flex-col gap-y-6">
         <div>
           <h2 className="font-rubik text-2xl font-extrabold">Side Quest #1</h2>
-          <h1 className="font-rubik text-4xl font-extrabold text-ngreen">
+          <h1 className="font-rubik text-3xl sm:text-4xl font-extrabold text-ngreen">
             AdMass Inc.
           </h1>
         </div>
