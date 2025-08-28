@@ -2,8 +2,8 @@ import Link from "next/link";
 
 export default function Home() {
   return (
-    <div className="relative h-screen w-full font-rubik overflow-hidden text-nblack">
-      <div className="absolute inset-0 grid grid-cols-2">
+    <div className="fixed inset-0 w-screen h-screen font-rubik overflow-hidden text-nblack">
+      <div className="absolute inset-0 grid grid-cols-1 md:grid-cols-2">
         {/* LEFT HALF */}
         <Link href="/left-brain" className="block">
           <div className="relative bg-nblack overflow-hidden group h-full cursor-pointer">
@@ -18,18 +18,18 @@ export default function Home() {
             </div>
 
             {/* Foreground content */}
-            <div className="relative z-10 flex flex-col items-end justify-center pt-[17vh] px-4">
+            <div className="relative z-10 flex flex-col items-end justify-center pt-[8vh] sm:pt-[17vh] px-3 md:px-4">
               <div className="text-2xl md:text-4xl font-rubik font-extrabold leading-snug">
                 <p className="text-nblue text-right">thinker.</p>
                 <p className="text-npurple text-right">full-stack</p>
-                <h1 className="text-8xl text-white font-rubik font-black">
+                <h1 className="text-6xl sm:text-8xl text-white font-rubik font-black">
                   SWALEHA
                 </h1>
               </div>
             </div>
 
             {/* Bottom Left Text Box */}
-            <div className="absolute left-0 bottom-4 pl-6 max-w-[340px] text-[25px] font-sans z-10">
+            <div className="absolute left-0 sm:bottom-4 pl-3 md:pl-6 max-w-[340px] sm:text-[25px] font-sans z-10">
               <p className="text-white font-thin uppercase">Left Brain</p>
               <p className="italic font-thin text-gray-300">(for recruiters)</p>
               <p className="text-white font-thin">
@@ -54,16 +54,16 @@ export default function Home() {
             </div>
 
             {/* Foreground content */}
-            <div className="relative z-10 flex flex-col items-start justify-center pt-[17vh] px-4">
+            <div className="relative z-10 flex flex-col items-start justify-center pt-[3vh] sm:pt-[17vh] px-3 md:px-4">
               <div className="text-2xl md:text-4xl font-rubik font-extrabold leading-snug">
                 <p className="text-ngreen">creative.</p>
                 <p className="text-npurple">developer.</p>
-                <h1 className="text-8xl text-white">JASMINE</h1>
+                <h1 className="text-6xl sm:text-8xl text-white">JASMINE</h1>
               </div>
             </div>
 
             {/* ✅ Bottom Right Text Box FIXED */}
-            <div className="absolute right-0 bottom-4 pr-6 max-w-[340px] text-[25px] text-right font-sans font-thin z-10">
+            <div className="absolute right-0 sm:bottom-4 pr-3 md:pr-6 max-w-[340px] sm:text-[25px] text-right font-sans font-thin z-10">
               <p className="text-white uppercase">Right Brain</p>
               <p className="italic text-gray-300">(for whoever)</p>
               <p className="text-white">
@@ -76,12 +76,21 @@ export default function Home() {
       </div>
 
       {/* Center Image (non-blocking) */}
-      <div className="absolute inset-x-0 bottom-0 flex justify-center z-10">
+      <div className="sm:hidden">
         <Link href="/combination">
           <img
             src="me.png"
             alt="Swaleha Jasmine"
-            className="h-[65vh] object-contain cursor-pointer hover:scale-105 transition-transform duration-200"
+            className="fixed top-1/2 -right-24 -translate-y-1/3 rotate-[-90deg] h-[50vw] w-auto object-contain cursor-pointer hover:scale-105 transition-transform duration-200 z-20"
+          />
+        </Link>
+      </div>
+      <div className="hidden sm:flex absolute inset-x-0 bottom-0 justify-center z-10">
+        <Link href="/combination">
+          <img
+            src="me.png"
+            alt="Swaleha Jasmine"
+            className="rotate-0 h-[65vh] object-contain cursor-pointer hover:scale-105 transition-transform duration-200"
           />
         </Link>
       </div>

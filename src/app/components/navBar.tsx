@@ -10,10 +10,9 @@ export default function NavBar() {
 
   const linkClass = (path: string) => {
     const isActive = pathname === path;
-    return `text-xl font-sans font-thin italic ${
+    return `text-base sm:text-xl font-sans font-thin italic ${
       isActive ? "underline" : "hover:underline"
-    }
-      decoration-[1px] underline-offset-4`;
+    } decoration-[1px] underline-offset-4`;
   };
 
   return (
@@ -22,9 +21,12 @@ export default function NavBar() {
         !isHomePage ? "bg-[#191919]" : ""
       }`}
     >
-      <nav className="flex items-center justify-between px-6 py-3 z-10">
+      <nav
+        className="flex items-center justify-between md:px-6 py-3 z-10
+        flex-col gap-2 sm:flex-row sm:gap-0"
+      >
         {/* Left-Icons */}
-        <div className="flex items-center gap-3">
+        <div className="hidden sm:flex items-center gap-3 mb-2 sm:mb-0">
           <a
             href="https://www.linkedin.com/in/swalehajasmine/"
             target="_blank"
@@ -42,7 +44,7 @@ export default function NavBar() {
         </div>
 
         {/* Middle Links */}
-        <div className="flex justify-around flex-1">
+        <div className="flex justify-around flex-1 w-full sm:w-auto">
           <Link href="/left-brain">
             <span className={linkClass("/left-brain")}>Left Brain</span>
           </Link>
@@ -61,7 +63,7 @@ export default function NavBar() {
         </div>
 
         {/* Right-Icons */}
-        <div className="flex items-center gap-3">
+        <div className="hidden sm:flex items-center gap-3 mt-2 sm:mt-0">
           <a
             href="https://www.redbubble.com/people/8lettering/shop"
             target="_blank"
@@ -78,7 +80,7 @@ export default function NavBar() {
           </a>
         </div>
       </nav>
-      <div className="px-6">
+      <div className="px-2 md:px-6">
         <Line />
       </div>
     </div>
