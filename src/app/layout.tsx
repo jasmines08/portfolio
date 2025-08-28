@@ -4,8 +4,21 @@ import type { Metadata } from "next";
 import { Montserrat, Rubik } from "next/font/google";
 
 export const metadata: Metadata = {
-  title: "Swaleha Jasmine – Portfolio",
-  description: "Developer portfolio built with Next.js and TypeScript.",
+  title: "Swaleha Jasmine – Full-Stack Developer",
+  description: "Portfolio built with Next.js, TypeScript and TailwindCSS.",
+  openGraph: {
+    title: "Swaleha Jasmine – Full-Stack Developer",
+    description: "Portfolio built with Next.js, TypeScript and TailwindCSS.",
+    url: "https://swaleha-jasmine-portfolio.vercel.app/",
+    type: "website",
+    images: [
+      {
+        url: "https://https://swaleha-jasmine-portfolio.vercel.app//og-image.png",
+        width: 1200,
+        height: 630,
+      },
+    ],
+  },
 };
 
 const montserrat = Montserrat({
