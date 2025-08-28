@@ -15,7 +15,7 @@ export const metadata: Metadata = {
       {
         url: "https://swaleha-jasmine-portfolio.vercel.app/og-image.png",
         width: 1200,
-        height: 630,
+        height: 627,
       },
     ],
   },
