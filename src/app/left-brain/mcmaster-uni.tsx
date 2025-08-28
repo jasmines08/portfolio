@@ -49,7 +49,7 @@ export default function McMasterUni() {
           </div>
         </div>
       </div>
-      <div className="basis-2/5 flex flex-col gap-y-6 items-end sm:mt-12">
+      <div className="basis-2/5 flex flex-col sm:gap-y-6 gap-y-4 items-end sm:mt-12">
         <div>
           <h2 className="font-rubik text-2xl font-extrabold text-right">
             Main Quest #2

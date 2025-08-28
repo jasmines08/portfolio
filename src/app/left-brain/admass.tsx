@@ -37,7 +37,7 @@ export default function Admass() {
           </div>
         </div>
       </div>
-      <div className="basis-2/5 flex flex-col gap-y-6">
+      <div className="basis-2/5 flex flex-col sm:gap-y-6 gap-y-4">
         <div>
           <h2 className="font-rubik text-2xl font-extrabold">Side Quest #1</h2>
           <h1 className="font-rubik text-3xl sm:text-4xl font-extrabold text-ngreen">

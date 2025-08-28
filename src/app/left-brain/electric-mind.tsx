@@ -3,7 +3,7 @@ export default function ElectricMind() {
     <div className="flex sm:flex-row flex-col">
       <div className="basis-2/3">
         <div className="flex sm:flex-row flex-col">
-          <div className="basis-1/2 flex flex-col gap-y-8 mt-6 2xl:gap-y-4">
+          <div className="basis-1/2 flex flex-col sm:gap-y-8 gap-y-4 mt-6 2xl:gap-y-4">
             <div>
               <h2 className="font-rubik text-2xl font-extrabold">
                 Main Quest #1
@@ -38,14 +38,14 @@ export default function ElectricMind() {
               <p className="font-sans font-extralight italic text-xl">
                 Inventory Unlocked:
               </p>
-              <p className="font-sans font-bold italic text-xl">
+              <p className="font-sans font-bold italic text-xl mb-6 sm:mb-0">
                 React Native, Accessibility, Java Spring Boot, SQL, RESTful
                 APIs, JHipster
-              </p>
-              <p className="font-sans font-bold italic text-xl mb-6 sm:mt-6 sm:hidden">
-                HTML, CSS, TypeScript, Material-UI, React.js, Next.js, Spring
-                Boot (Java), Jest, CIAM, Auth0, Git, Jira, Confluence, Docker,
-                and OpenShift.
+                <span className="sm:hidden">
+                  ,HTML, CSS, TypeScript, Material-UI, React.js, Next.js, Spring
+                  Boot (Java), Jest, CIAM, Auth0, Git, Jira, Confluence, Docker,
+                  and OpenShift.
+                </span>
               </p>
             </div>
           </div>
