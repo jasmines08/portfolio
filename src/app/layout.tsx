@@ -2,6 +2,7 @@ import NavBar from "./components/navBar";
 import "./globals.css";
 import type { Metadata } from "next";
 import { Montserrat, Rubik } from "next/font/google";
+import { Analytics } from "@vercel/analytics/react";
 
 export const metadata: Metadata = {
   title: "Swaleha Jasmine – Full-Stack Developer",
@@ -51,6 +52,7 @@ export default function RootLayout({
       <body>
         <NavBar />
         {children}
+        <Analytics />
       </body>
     </html>
   );
