@@ -5,7 +5,7 @@ export default function Coding() {
   return (
     <div className="flex flex-col gap-y-6">
       <div>
-        <h1 className="md:-mt-4 md:text-[6vw] text-[9vw] font-rubik font-extrabold text-nblue leading-tight">
+        <h1 className="md:-mt-4 sm:text-[6vw] text-[8vw] font-rubik font-extrabold text-nblue leading-tight">
           CODING CAMPAIGNS
         </h1>
         <p className="text-[4vw] md:-mt-4 md:text-[1.5vw] italic font-sans font-thin leading-tight">
@@ -13,8 +13,8 @@ export default function Coding() {
         </p>
       </div>
       <div className="flex flex-col gap-y-6 mt-4">
-        <div className="flex">
-          <div className="basis-1/2 2xl:basis-1/3 pr-6">
+        <div className="flex flex-col md:flex-row gap-y-6">
+          <div className="basis-1/2 2xl:basis-1/3 sm:pr-6">
             <Image
               src="/macconnect_poster.png"
               alt="8lettering art"
@@ -94,8 +94,8 @@ export default function Coding() {
       </div>
       <Line />
       <div className="flex flex-col gap-y-6">
-        <div className="flex flex-row-reverse">
-          <div className="basis-1/2 2xl:basis-1/3 pl-6">
+        <div className="flex  flex-col md:flex-row-reverse gap-y-6">
+          <div className="basis-1/2 2xl:basis-1/3 sm:pl-6">
             <Image
               src="/asl.png"
               alt="8lettering art"
@@ -158,8 +158,8 @@ export default function Coding() {
       </div>
       <Line />
       <div className="flex flex-col gap-y-6">
-        <div className="flex">
-          <div className="basis-1/2 2xl:basis-1/3 pr-6">
+        <div className="flex flex-col md:flex-row gap-y-6">
+          <div className="basis-1/2 2xl:basis-1/3 sm:pr-6">
             <Image
               src="/brewcast.png"
               alt="8lettering art"
@@ -215,8 +215,8 @@ export default function Coding() {
       </div>
       <Line />
       <div className="flex flex-col gap-y-6">
-        <div className="flex flex-row-reverse">
-          <div className="basis-1/2 2xl:basis-1/3 pl-6">
+        <div className="flex flex-col md:flex-row-reverse gap-y-6">
+          <div className="basis-1/2 2xl:basis-1/3 sm:pl-6">
             <Image
               src="/cookbook.png"
               alt="8lettering art"

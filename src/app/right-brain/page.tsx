@@ -3,7 +3,7 @@ import Line from "../components/line";
 import Footer from "../components/footer";
 export default function RightBrain() {
   return (
-    <div className="flex flex-col pt-14 gap-y-8 px-6">
+    <div className="flex flex-col pt-14 sm:gap-y-8 gap-y-4 px-3 sm:px-6">
       <div>
         <h1 className="text-center mt-8 md:mt-4 md:text-[6vw] text-[9vw] font-rubik font-extrabold text-nblue leading-tight">
           Creative Expeditions

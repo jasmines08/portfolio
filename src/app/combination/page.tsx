@@ -5,7 +5,7 @@ import Coding from "./coding";
 
 export default function Combination() {
   return (
-    <div className="flex flex-col pt-14 gap-y-6 px-6">
+    <div className="flex flex-col pt-14 gap-y-4 sm:gap-y-6 px-3 sm:px-6">
       <div>
         <h1 className="text-center mt-8 md:mt-4 md:text-[4vw] text-[9vw] font-rubik font-extrabold leading-tight">
           This is where the MAGIC happens.
