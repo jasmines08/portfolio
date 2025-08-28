@@ -19,6 +19,13 @@ export const metadata: Metadata = {
       },
     ],
   },
+  twitter: {
+    card: "summary_large_image",
+    title: "Swaleha Jasmine — Software Developer",
+    description:
+      "I build thoughtful, user-centric software with a designer’s eye. See what makes me unique.",
+    images: ["https://your-domain.vercel.app/og-image.jpg"],
+  },
 };
 
 const montserrat = Montserrat({
