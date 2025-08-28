@@ -13,7 +13,7 @@ export const metadata: Metadata = {
     type: "website",
     images: [
       {
-        url: "https://https://swaleha-jasmine-portfolio.vercel.app//og-image.png",
+        url: "https://https://swaleha-jasmine-portfolio.vercel.app/og-image.png",
         width: 1200,
         height: 630,
       },
